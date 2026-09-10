@@ -2,8 +2,8 @@
 type: project-brain
 title: F1 Live Dashboard — Project Status
 project: f1-live-dashboard
-status: active
-phase: Phase 1 — Environment Setup, Dependencies & Project Structure
+status: planning
+phase: Phase 1 — Environment Setup, Dependencies & Project Structure (Ready to Begin)
 last_updated: 2026-09-10
 ---
 
@@ -11,25 +11,24 @@ last_updated: 2026-09-10
 
 ## 🚦 Current Status
 - **Phase**: `Phase 1 — Environment Setup, Dependencies & Project Structure`
-- **Current Milestone**: Project structure alignment and scaffolding baseline setup.
-- **Health**: 🟢 Green / In Active Development
+- **Current Milestone**: Clean slate initialized; ready for Lesson 1.1 hands-on implementation.
+- **Health**: 🟢 Ready to begin
 - **Blockers**: None
 
 ---
 
-## 🎯 Active Track
-- **Immediate Task**: Establish the official directory layout and foundational configuration files (`package.json`, `tsconfig.json`, `vite.config.ts`, `.gitignore`, `.env.example`, `eslint.config.js`).
-- **Upcoming Milestone**: Phase 1.1 - 1.3:
-  1. Base scaffolding and dependencies (`react`, `react-dom`, `lucide-react`, `tailwindcss`, `zustand`, `clsx`, `tailwind-merge`).
-  2. Styling tokens (`globals.css`, `theme.css`).
-  3. Domain models (`src/domain/`).
+## 🎯 Next Session Hand-off
+- **Resume Point**: Start **Lesson 1.1: Project Scaffolding & Tooling** hands-on with the developer.
+- The developer will create and inspect each file step by step (`package.json`, `tsconfig.json`, `vite.config.ts`, etc.) to fully master the concepts.
 
 ---
 
 ## 📋 Completed Milestones
-- [x] Initial operational `.brain` system established (`PROJECT_CONTEXT.md`, `ARCHITECTURE.md`, `DECISIONS.md`, `TODO.md`).
-- [x] Comprehensive architecture and directory structure defined by user.
-- [x] Operational status tracking document created (`PROJECT_STATUS.md`).
+- [x] Initial operational `.brain` documentation established (`PROJECT_CONTEXT.md`, `ARCHITECTURE.md`, `DECISIONS.md`, `TODO.md`, `PROJECT_STATUS.md`).
+- [x] Research audit, architecture blueprint, and 12-phase learning roadmap aligned.
+- [x] GitHub repository initialized and linked to remote `origin/main`.
+- [x] Foundational `.gitignore` configured.
+- [ ] **Phase 1: Lesson 1.1 Scaffolding & Tooling** (Ready to begin).
 
 ---
 
