@@ -2,24 +2,24 @@
 type: project-brain
 title: F1 Live Dashboard — Project Status
 project: f1-live-dashboard
-status: planning
-phase: Phase 1 — Environment Setup, Dependencies & Project Structure (Ready to Begin)
-last_updated: 2026-09-10
+status: in-progress
+phase: Phase 1 — Environment Setup, Dependencies & Project Structure
+last_updated: 2026-09-13
 ---
 
 # 🏎️ F1 Live Dashboard — Project Status
 
 ## 🚦 Current Status
 - **Phase**: `Phase 1 — Environment Setup, Dependencies & Project Structure`
-- **Current Milestone**: Clean slate initialized; ready for Lesson 1.1 hands-on implementation.
-- **Health**: 🟢 Ready to begin
+- **Current Milestone**: Lesson 1.2 Complete; ready for Lesson 1.3: Core Domain TypeScript Definitions.
+- **Health**: 🟢 Operational
 - **Blockers**: None
 
 ---
 
 ## 🎯 Next Session Hand-off
-- **Resume Point**: Start **Lesson 1.1: Project Scaffolding & Tooling** hands-on with the developer.
-- The developer will create and inspect each file step by step (`package.json`, `tsconfig.json`, `vite.config.ts`, etc.) to fully master the concepts.
+- **Resume Point**: Start **Lesson 1.3: Core Domain TypeScript Definitions**.
+- Define domain models in `src/domain/` (`driver.ts`, `timing.ts`, `telemetry.ts`, `circuit.ts`, `session.ts`, `tyre.ts`, `raceControl.ts`, `weather.ts`).
 
 ---
 
@@ -28,7 +28,9 @@ last_updated: 2026-09-10
 - [x] Research audit, architecture blueprint, and 12-phase learning roadmap aligned.
 - [x] GitHub repository initialized and linked to remote `origin/main`.
 - [x] Foundational `.gitignore` configured.
-- [ ] **Phase 1: Lesson 1.1 Scaffolding & Tooling** (Ready to begin).
+- [x] **Phase 1: Lesson 1.1 Scaffolding & Tooling** (Vite + React 19 + TypeScript scaffolding, build verified, HMR verified).
+- [x] **Phase 1: Lesson 1.2 Design Tokens & F1 Theme Configuration** (Tailwind CSS v4 + F1 theme tokens, team hex codes, tire badges, monospace tabular numbers, ADR-006 documented).
+- [x] **2026 Grid Alignment & ADR-007** (11 constructors / 22 cars with Audi Works & Cadillac F1, Racing Bulls driver lineup update, backwards-compatible fallback for 2024/2025 replay fixtures).
 
 ---
 

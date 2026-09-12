@@ -52,7 +52,7 @@ last_updated: 2026-09-09
 │                             REACT PRESENTATION LAYER                                   │
 │  ┌─────────────────────────┐  ┌─────────────────────────────┐  ┌────────────────────┐  │
 │  │   TimingTower.tsx       │  │    CircuitMap.tsx           │  │ TelemetryView.tsx  │  │
-│  │   - P1..P20 Rows        │  │    - Normalized SVG Canvas  │  │ - Line Traces      │  │
+│  │   - Dynamic P1..P20/P22 │  │    - Normalized SVG Canvas  │  │ - Line Traces      │  │
 │  │   - Team Color Accents  │  │    - Static Track Path      │  │ - Driver Select    │  │
 │  │   - Sector Micro-boxes  │  │    - Animated Car Markers   │  │ - Comparative View │  │
 │  │   - Interval Indicators │  │    - Sector Markers & DRS   │  │ - Gauge HUDs       │  │

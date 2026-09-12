@@ -13,11 +13,11 @@ last_updated: 2026-09-09
 # 📋 Phased Learning Roadmap & Task Checklist
 
 ## 🏁 Phase 1: Environment Setup, Dependencies & Project Structure
-- [ ] **Lesson 1.1: Project Scaffolding & Tooling**
+- [x] **Lesson 1.1: Project Scaffolding & Tooling**
   - Concept: Why Vite + React + TypeScript, bundle mechanics, and rapid HMR for telemetry.
   - Action: Scaffold project with Vite, setup TypeScript config, and verify dev server runs.
   - Checkpoint: Dev server runs at `localhost:5173` showing starter screen.
-- [ ] **Lesson 1.2: Design Tokens & F1 Theme Configuration**
+- [x] **Lesson 1.2: Design Tokens & F1 Theme Configuration**
   - Concept: Dark mode contrast, broadcast graphics hierarchy, FIA standard team & tire colors.
   - Action: Configure Tailwind CSS with F1 color tokens (carbon dark, team hex codes, tire compound badges).
   - Checkpoint: Inspect styled design tokens in browser preview.

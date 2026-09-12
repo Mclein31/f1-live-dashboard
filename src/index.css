@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* F1 Cockpit & Broadcast Palettes */
+  --color-f1-carbon: #15151e;
+  --color-f1-dark: #101017;
+  --color-f1-tarmac: #1e1e24;
+  --color-f1-card: #1a1a24;
+  --color-f1-card-hover: #232332;
+  --color-f1-border: #2e2f3e;
+  --color-f1-red: #e10600;
+  --color-f1-muted: #8b8f9a;
+
+  /* FIA Teams (2026 Grid + Historical) */
+  --color-team-redbull: #3671C6;
+  --color-team-ferrari: #E80020;
+  --color-team-mercedes: #27F4D2;
+  --color-team-mclaren: #FF8000;
+  --color-team-aston: #229971;
+  --color-team-alpine: #0093CC;
+  --color-team-williams: #64C4FF;
+  --color-team-rb: #6692FF;
+  --color-team-audi: #F50537;
+  --color-team-cadillac: #D4AF37;
+  --color-team-haas: #B6BABD;
+  --color-team-sauber: #52E252;
+
+  /* Pirelli Tire Compounds */
+  --color-tire-soft: #e10600;
+  --color-tire-medium: #ffd12e;
+  --color-tire-hard: #ffffff;
+  --color-tire-intermediate: #39b54a;
+  --color-tire-wet: #0072bb;
+
+  /* Sectors & Status */
+  --color-sector-purple: #b138dd;
+  --color-sector-green: #00d2be;
+  --color-sector-yellow: #ffe500;
+
+  /* Fonts */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+:root {
+  color-scheme: dark;
+  background-color: #101017;
+  color: #f3f4f6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #101017;
+  min-height: 100vh;
+}
+
+/* Tabular numbers for telemetry, timing, and delta alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

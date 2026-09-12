@@ -57,3 +57,22 @@ last_updated: 2026-09-09
   - Conceptual explanation & mental model provided before code is written.
   - Interactive checkpoint and verification after each atomic step before proceeding.
 - **Consequences**: Slower, highly engaging, deep learning retention for the user.
+
+---
+
+## ADR-006: Dual-Layer Design Token Architecture (Tailwind v4 @theme + TypeScript Constants)
+- **Status**: Accepted
+- **Context**: F1 dashboard requires broadcast-grade visual fidelity across both standard DOM UI (Tailwind utility classes) and dynamic graphics contexts (SVG `<path>` and `<circle>` fill colors, Canvas charts, sparklines) where CSS classes cannot be directly interpolated or dynamically passed into canvas APIs.
+- **Decision**: Define design tokens in `@theme` inside `src/index.css` for Tailwind CSS v4, and mirror them in `src/constants/theme.ts` as typed TypeScript constants (`F1_COLORS`).
+- **Consequences**: Single source of truth with typed programmatic access for SVG/Canvas rendering plus rapid declarative styling in React components.
+
+---
+
+## ADR-007: 2026 Grid Alignment & Multi-Season Constructor Compatibility (Audi & Cadillac)
+- **Status**: Accepted
+- **Context**: The Formula 1 2026 regulations expand the constructor grid from 10 to 11 teams (22 cars). Audi officially enters as the factory works team taking over the Sauber entry, and Cadillac F1 joins as the 11th constructor. However, historical replay sessions recorded via OpenF1 (e.g. 2024/2025 Monza, Silverstone) use Kick Sauber and 20 cars.
+- **Decision**: 
+  1. Add first-class tokens for Audi (`#F50537`) and Cadillac (`#D4AF37`) in both Tailwind `@theme` and `F1_COLORS.teams`.
+  2. Implement `resolveTeamColor(teamName, fallbackHex)` in `src/constants/theme.ts` to normalize constructor names dynamically across both 2026 live streams and 2024–2025 historical replay sessions.
+  3. Ensure all timing towers, map markers, and telemetry inspectors are dynamically sized to handle 20 to 22 cars without hardcoded row assumptions.
+- **Consequences**: Future-proof 2026 regulation compliance while maintaining 100% backward compatibility with recorded 2024/2025 OpenF1 session fixtures.

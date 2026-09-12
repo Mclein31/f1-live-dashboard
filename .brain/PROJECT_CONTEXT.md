@@ -27,9 +27,9 @@ Beyond delivering a high-performance race viewer, the project is structured as a
 ---
 
 ## 🎯 Current Status
-- **Status**: `Phase 1 — Project Initialization & Scaffolding Planned`
-- **Active Track**: Setting up clean React + TypeScript + Vite project structure, foundational design tokens, and mock data replay contracts.
-- **Next Step**: Lesson 1.1 — Scaffold Vite + React + TypeScript in `f1-live-dashboard`, install dependencies (Tailwind CSS, Lucide icons, lightweight chart utilities), and establish the project directory layout.
+- **Status**: `Phase 1 — In Progress (Lessons 1.1 & 1.2 Complete)`
+- **Active Track**: Scaffolding with Vite + React 19 + TypeScript (Lesson 1.1) and Design Tokens & F1 Theme Configuration (Lesson 1.2) complete. 2026 Grid aligned (11 teams / 22 cars with Audi Works and Cadillac F1, backwards-compatible fallback for 2024–2025 replay fixtures).
+- **Next Step**: Lesson 1.3 — Core Domain TypeScript Definitions (`driver.ts`, `timing.ts`, `telemetry.ts`, `circuit.ts`, `session.ts`, `tyre.ts`, `raceControl.ts`, `weather.ts`).
 
 ---
 
